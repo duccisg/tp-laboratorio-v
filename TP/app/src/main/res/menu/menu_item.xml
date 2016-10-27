@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<group android:checkableBehavior="none">
+
+    <item
+        android:id="@+id/menu_close_session"
+        android:title="@string/menu_option.close_session"
+        />
+
+    <item
+        android:id="@+id/menu_favorites"
+        android:title="@string/menu_option.favorites"
+        />
+
+    <item
+        android:id="@+id/menu_categories"
+        android:title="@string/menu_option.categories"
+        />
+
+</group>
+
+</menu>

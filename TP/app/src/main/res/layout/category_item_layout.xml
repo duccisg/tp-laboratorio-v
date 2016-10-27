@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="1"
+    android:layout_marginLeft="20dp"
+    >
+
+
+    <ImageView
+        android:id="@+id/category_item_photo"
+        android:src="@drawable/category_icon"
+        android:layout_width="85dp"
+        android:layout_height="92dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/category_item_name"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="25dp"
+            android:textSize="20dp"
+            android:text="@string/category.medium.text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/category_item_desc"
+            android:layout_marginLeft="10dp"
+            android:textSize="12dp"
+            android:text="@string/category.small.text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/category_item_favorite"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       />
+
+</LinearLayout>
